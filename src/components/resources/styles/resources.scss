@@ -1,0 +1,20 @@
+$background-color:#284e77;
+$font-color: white;
+
+.resources__container {
+  height: 100vh;
+  width: 100vw;
+  display:flex; 
+  flex-direction: column;
+  // justify-content: space-between;
+  background-color: $background-color;
+}
+
+.resources__heading {
+
+  font-family: "Oswald", sans-serif;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: $font-color;
+}
