@@ -1,0 +1,38 @@
+$background: #dbc6eb;
+$font-color: #ff7f78;
+$hover-color: #dcffd3;
+
+.navbar {
+	// top: 0;
+	// z-index: 2;
+	background-color:$background;
+	overflow: hidden;
+	height: 70px;
+	width: 100vw;
+	display: flex;
+	justify-content: flex-end;
+	// align-items: center;
+}
+
+.navbar > ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 1.45em;
+}
+
+.navbar > ul > li > a {
+	text-decoration: none;
+	color: $font-color;
+}
+
+.navbar > ul > li > a:hover {
+	color: $hover-color;
+}
+
+.navbar > ul > li > a:active {
+	color: $hover-color;
+}
