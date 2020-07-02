@@ -1,7 +1,39 @@
+$background-color:#ffe6ea;
+$font-color: #d63e64;
+
+
 .home__container {
-	background-color: yellow;
+	background-color: $background-color;
 	height: 100vh;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	// justify-content: center;
 	align-items: center;
+}
+
+.home__heading {
+	text-align: center;
+	font-family: "Oswald", sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 150px;
+	margin-bottom: 95px;
+}
+
+.home__heading > h1 {
+	color: $font-color;
+	margin:0;
+	font-size: 70px;
+}
+
+.home__heading > h2 {
+	margin:0;
+	font-size: 40px;
+	font-weight: 300;
+	color: #4a4a4a;
+}
+
+.pom__container {
+	transform: scale(1.2);
+
 }
