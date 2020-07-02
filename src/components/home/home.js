@@ -1,6 +1,7 @@
 import React from 'react';
 import Pom from './pom'
 import './styles/home.scss';
+import './styles/stars.scss'
 
 function Home() {
 	return (
@@ -14,6 +15,16 @@ function Home() {
 			<div className='pom__container'>
 				<Pom/>
 			</div>
+
+			{/* Stars */}
+			<div className="stars">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+      </div>
+
+			
 		</div>
 	);
 }
