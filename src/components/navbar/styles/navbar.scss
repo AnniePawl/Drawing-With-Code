@@ -3,9 +3,10 @@ $font-color: #ff7f78;
 $hover-color: #dcffd3;
 
 .navbar {
-	// top: 0;
-	// z-index: 2;
+	top: 0;
+	z-index: 2;
 	background-color:$background;
+	position:fixed;
 	overflow: hidden;
 	height: 70px;
 	width: 100vw;
@@ -22,6 +23,11 @@ $hover-color: #dcffd3;
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 1.45em;
+	margin-right:20px;
+}
+
+.navbar > ul > li {
+	margin-left: 20px;
 }
 
 .navbar > ul > li > a {

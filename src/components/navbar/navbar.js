@@ -16,6 +16,14 @@ function Navbar() {
 						Resources
 					</HashLink>
 				</li>
+
+				<li>
+					About
+				</li>
+				<li>
+					Tutorials
+				</li>
+				
 			</ul>
 		</div>
 	);
