@@ -1,11 +1,23 @@
-$background-color:#284e77;
-$font-color: white;
+$background-color:white;
+$font-color: hotpink;
 
 .about__container {
   height: 100vh;
   width: 100vw;
   display:flex; 
   flex-direction: column;
-  // justify-content: space-between;
-  background-color: green;
+  background-color: $background-color;
+}
+
+.about__content {
+  margin-top: 100px;
+  margin-left:50px;
+}
+
+.about__content > h1{
+  font-size:50px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 800;
+  color: $font-color;
 }
