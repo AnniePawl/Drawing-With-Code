@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Drawing-With-Code/static/css/main.b0241ef5.chunk.css",
+    "main.js": "/Drawing-With-Code/static/js/main.00b865af.chunk.js",
+    "main.js.map": "/Drawing-With-Code/static/js/main.00b865af.chunk.js.map",
+    "runtime-main.js": "/Drawing-With-Code/static/js/runtime-main.13ffb5a1.js",
+    "runtime-main.js.map": "/Drawing-With-Code/static/js/runtime-main.13ffb5a1.js.map",
+    "static/js/2.61ee8689.chunk.js": "/Drawing-With-Code/static/js/2.61ee8689.chunk.js",
+    "static/js/2.61ee8689.chunk.js.map": "/Drawing-With-Code/static/js/2.61ee8689.chunk.js.map",
+    "index.html": "/Drawing-With-Code/index.html",
+    "precache-manifest.a68ac6759a5e6fd33deb16f9de2a707f.js": "/Drawing-With-Code/precache-manifest.a68ac6759a5e6fd33deb16f9de2a707f.js",
+    "service-worker.js": "/Drawing-With-Code/service-worker.js",
+    "static/css/main.b0241ef5.chunk.css.map": "/Drawing-With-Code/static/css/main.b0241ef5.chunk.css.map",
+    "static/js/2.61ee8689.chunk.js.LICENSE.txt": "/Drawing-With-Code/static/js/2.61ee8689.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13ffb5a1.js",
+    "static/js/2.61ee8689.chunk.js",
+    "static/css/main.b0241ef5.chunk.css",
+    "static/js/main.00b865af.chunk.js"
+  ]
+}
