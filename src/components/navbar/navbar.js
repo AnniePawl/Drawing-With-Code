@@ -18,7 +18,9 @@ function Navbar() {
 				</li>
 
 				<li>
-					About
+				<HashLink smooth to="/#about">
+						About
+					</HashLink>
 				</li>
 				<li>
 					Tutorials
