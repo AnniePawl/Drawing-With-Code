@@ -1,11 +1,11 @@
 $background-color: #ffe6ea;
 $font-color2: #ffe6ea;
-$font-color: #8ae3ba;
+$font-color: #d63e64;
 
 .home__container {
 	// background-color: $background-color;
-	background: rgb(62, 140, 170);
-	background: linear-gradient(0deg, rgba(62, 140, 170, 1) 0%, rgba(21, 42, 56, 1) 100%);
+	background: rgb(138, 227, 186);
+	background: linear-gradient(0deg, rgba(138, 227, 186, 1) 0%, rgba(255, 230, 234, 1) 57%);
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -32,7 +32,7 @@ $font-color: #8ae3ba;
 	margin: 0;
 	font-size: 40px;
 	font-weight: 300;
-	color: #ffe6ea;
+	color: #4a4a4a;
 }
 
 .pom__container {

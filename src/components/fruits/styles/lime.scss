@@ -12,7 +12,7 @@ $lime_leaf: #7ebfb6;
 .lime_container {
 	@include center_flex();
 	// background-color: #214054;
-	height: 600px;
+	height: 300px;
 }
 
 .total {
@@ -119,12 +119,12 @@ $lime_leaf: #7ebfb6;
 
 .lime_shadow {
 	position: relative;
-	background-color: #0e202b;
+	background-color: #183445;
 	border-radius: 50%;
 	height: 45px;
 	width: 140px;
 	animation: lime_shadow 3s infinite;
-	box-shadow: 0 0 2px 5px #0e202b;
+	box-shadow: 0 0 2px 5px #183445;
 }
 
 // Chage leaf color

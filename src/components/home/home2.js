@@ -1,8 +1,9 @@
+// Original Home - Saving just in case I want to go back ....
+
 import React from 'react';
-// import Pom from './pom'
+import Pom from './pom';
 import './styles/home.scss';
 import './styles/stars.scss';
-import Lime from '../fruits/lime';
 
 function Home() {
 	return (
@@ -13,17 +14,17 @@ function Home() {
 				<h2> A Guide to Drawing with Code</h2>
 			</div>
 			{/* Pom Container */}
-			<div>
-				<Lime />
+			<div className="pom__container">
+				<Pom />
 			</div>
 
 			{/* Stars */}
-			{/* <div className="stars">
+			<div className="stars">
 				<div class="particle particle-1" />
 				<div class="particle particle-2" />
 				<div class="particle particle-3" />
 				<div class="particle particle-4" />
-			</div> */}
+			</div>
 		</div>
 	);
 }
