@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/landingPage.scss';
 import Navbar from '../navbar/navbar';
 import Home from '../home/home';
-import About from '../about/about'
+import About from '../about/about';
 import Resources from '../resources/resources';
 
 function LandingPage() {
@@ -15,17 +15,15 @@ function LandingPage() {
 				<Home />
 			</div>
 
+			{/* About Container */}
+			<div id="about" className="about__section">
+				<About />
+			</div>
+
 			{/* Resources Container */}
 			<div id="resources" className="resources__section">
 				<Resources />
 			</div>
-
-			{/* About Container */}
-			<div id ='about' className='about__section'>
-				<About/>
-			</div>
-
-
 		</div>
 	);
 }

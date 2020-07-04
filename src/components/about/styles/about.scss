@@ -6,9 +6,10 @@ $font-color: hotpink;
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
-	// background-color: $background-color;
-	background: rgb(33, 64, 84);
-	background: linear-gradient(0deg, rgba(33, 64, 84, 1) 30%, rgba(61, 140, 170, 1) 100%);
+	background: rgb(255, 230, 234);
+	background: linear-gradient(0deg, rgba(255, 230, 234, 1) 22%, rgba(61, 140, 170, 1) 100%);
+	// background: rgb(61, 140, 170);
+	// background: linear-gradient(180deg, rgba(61, 140, 170, 1) 0%, rgba(232, 245, 135, 1) 89%);
 }
 
 .about__content {

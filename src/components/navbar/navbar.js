@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/navbar.scss';
 import { HashLink } from 'react-router-hash-link';
+import { withRouter } from 'react-router-dom';
 
 function Navbar() {
 	return (
@@ -11,6 +12,12 @@ function Navbar() {
 						Home
 					</HashLink>
 				</li>
+
+				<li>
+					<HashLink smooth to="/#about">
+						About
+					</HashLink>
+				</li>
 				<li>
 					<HashLink smooth to="/#resources">
 						Resources
@@ -18,14 +25,10 @@ function Navbar() {
 				</li>
 
 				<li>
-				<HashLink smooth to="/#about">
-						About
+					<HashLink smooth to="/tutorials/#tutorials__section">
+						Tutorials
 					</HashLink>
 				</li>
-				<li>
-					Tutorials
-				</li>
-				
 			</ul>
 		</div>
 	);

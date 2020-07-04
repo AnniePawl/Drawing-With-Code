@@ -1,6 +1,8 @@
 import React from 'react';
 // import Lime from './lime'
 import Buttons from './buttons';
+import Pom from '../fruits/pom';
+
 import './styles/about.scss';
 
 function About() {
@@ -10,7 +12,7 @@ function About() {
 				<h1>About</h1>
 			</div>
 			{/* Lime Container */}
-			<div>{/* <Lime/> */}</div>
+			<div>{/* <Pom /> */}</div>
 			{/* Buttons */}
 			<div>{/* <Buttons/> */}</div>
 		</div>
