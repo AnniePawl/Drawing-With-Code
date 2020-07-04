@@ -25,7 +25,7 @@ function Navbar() {
 				</li>
 
 				<li>
-					<HashLink smooth to="/#resources">
+					<HashLink smooth to="/gallery/#gallery__section">
 						Gallery
 					</HashLink>
 				</li>

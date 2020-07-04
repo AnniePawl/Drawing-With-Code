@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import LandingPage from './components/landingPage/landingPage';
 import Tutorials from './components/tutorials/tutorials';
+import Gallery from './components/gallery/gallery';
 
 function App() {
 	return (
@@ -11,6 +12,9 @@ function App() {
 
 			{/* Tutorial Route */}
 			<Route path="/tutorials/" component={Tutorials} />
+
+			{/* Gallery Route*/}
+			<Route path="/gallery/" component={Gallery} />
 		</Router>
 	);
 }
