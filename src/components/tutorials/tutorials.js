@@ -1,11 +1,12 @@
 import React from 'react';
 import './styles/tutorials.scss';
-import Navbar from '../navbar/navbar';
+import BackHome from '../navbar/backHome';
+// import Navbar from '../navbar/navbar';
 
 function Tutorials() {
 	return (
 		<div id="tutorials" className="tutorials__container">
-			<Navbar />
+			<BackHome />
 			<div id="tutorials__section">
 				<h1>Tutorials</h1>
 			</div>

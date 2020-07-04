@@ -1,7 +1,7 @@
 // Original Home - Saving just in case I want to go back ....
 
 import React from 'react';
-import Pom from './pom';
+import Pom from '../fruits/pom';
 import './styles/home.scss';
 import './styles/stars.scss';
 
