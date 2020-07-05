@@ -7,6 +7,7 @@ function About() {
 	return (
 		<div className="about__container">
 			<div className="about__content">
+				<AboutProject />
 				<AboutMe />
 			</div>
 		</div>
