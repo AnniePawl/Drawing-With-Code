@@ -1,20 +1,14 @@
 import React from 'react';
-// import Lime from './lime'
-import Buttons from './buttons';
-import Pom from '../fruits/pom';
-
+import AboutMe from './about_me';
+import AboutProject from './about_project';
 import './styles/about.scss';
 
 function About() {
 	return (
 		<div className="about__container">
 			<div className="about__content">
-				<h1>About</h1>
+				<AboutMe />
 			</div>
-			{/* Lime Container */}
-			<div>{/* <Pom /> */}</div>
-			{/* Buttons */}
-			<div>{/* <Buttons/> */}</div>
 		</div>
 	);
 }

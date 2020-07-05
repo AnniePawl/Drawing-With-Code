@@ -26,13 +26,14 @@ $font-color: hotpink;
 }
 
 // Button Styles
-img.profile_button {
+
+.about_me__buttons > img {
 	height: 45px;
 	width: 45px;
 	margin: 12px;
 }
 
-.profile_buttons {
+.about_me__buttons {
 	margin-top: 5px;
 	margin-left: -12px;
 }

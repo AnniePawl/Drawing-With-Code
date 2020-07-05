@@ -13,7 +13,7 @@ function Home() {
 				<h2> A Guide to Drawing with Code</h2>
 			</div>
 			{/* Pom Container */}
-			<div>
+			<div className="home__lime_container">
 				<Lime />
 			</div>
 
