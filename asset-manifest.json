@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/Drawing-With-Code/static/css/main.b0241ef5.chunk.css",
-    "main.js": "/Drawing-With-Code/static/js/main.00b865af.chunk.js",
-    "main.js.map": "/Drawing-With-Code/static/js/main.00b865af.chunk.js.map",
+    "main.css": "/Drawing-With-Code/static/css/main.88ca6805.chunk.css",
+    "main.js": "/Drawing-With-Code/static/js/main.feae51f3.chunk.js",
+    "main.js.map": "/Drawing-With-Code/static/js/main.feae51f3.chunk.js.map",
     "runtime-main.js": "/Drawing-With-Code/static/js/runtime-main.13ffb5a1.js",
     "runtime-main.js.map": "/Drawing-With-Code/static/js/runtime-main.13ffb5a1.js.map",
-    "static/js/2.61ee8689.chunk.js": "/Drawing-With-Code/static/js/2.61ee8689.chunk.js",
-    "static/js/2.61ee8689.chunk.js.map": "/Drawing-With-Code/static/js/2.61ee8689.chunk.js.map",
+    "static/js/2.5e26a875.chunk.js": "/Drawing-With-Code/static/js/2.5e26a875.chunk.js",
+    "static/js/2.5e26a875.chunk.js.map": "/Drawing-With-Code/static/js/2.5e26a875.chunk.js.map",
     "index.html": "/Drawing-With-Code/index.html",
-    "precache-manifest.a68ac6759a5e6fd33deb16f9de2a707f.js": "/Drawing-With-Code/precache-manifest.a68ac6759a5e6fd33deb16f9de2a707f.js",
+    "precache-manifest.aa730f9829838c911c8112a604352397.js": "/Drawing-With-Code/precache-manifest.aa730f9829838c911c8112a604352397.js",
     "service-worker.js": "/Drawing-With-Code/service-worker.js",
-    "static/css/main.b0241ef5.chunk.css.map": "/Drawing-With-Code/static/css/main.b0241ef5.chunk.css.map",
-    "static/js/2.61ee8689.chunk.js.LICENSE.txt": "/Drawing-With-Code/static/js/2.61ee8689.chunk.js.LICENSE.txt"
+    "static/css/main.88ca6805.chunk.css.map": "/Drawing-With-Code/static/css/main.88ca6805.chunk.css.map",
+    "static/js/2.5e26a875.chunk.js.LICENSE.txt": "/Drawing-With-Code/static/js/2.5e26a875.chunk.js.LICENSE.txt",
+    "static/media/codepen.svg": "/Drawing-With-Code/static/media/codepen.891cf13b.svg",
+    "static/media/dribbble.svg": "/Drawing-With-Code/static/media/dribbble.2946195e.svg",
+    "static/media/github.svg": "/Drawing-With-Code/static/media/github.a4dfa125.svg",
+    "static/media/linkedin.svg": "/Drawing-With-Code/static/media/linkedin.506ced1b.svg",
+    "static/media/medium.svg": "/Drawing-With-Code/static/media/medium.c5f92355.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.13ffb5a1.js",
-    "static/js/2.61ee8689.chunk.js",
-    "static/css/main.b0241ef5.chunk.css",
-    "static/js/main.00b865af.chunk.js"
+    "static/js/2.5e26a875.chunk.js",
+    "static/css/main.88ca6805.chunk.css",
+    "static/js/main.feae51f3.chunk.js"
   ]
 }
