@@ -19,8 +19,8 @@ $width: 90px;
 
 .basic_shapes__circle {
 	margin: $margin;
-	height: $height;
-	width: $width;
+	height: $height + 5px;
+	width: $width + 5px;
 	background-color: $background-color;
 	border-radius: 50%;
 }

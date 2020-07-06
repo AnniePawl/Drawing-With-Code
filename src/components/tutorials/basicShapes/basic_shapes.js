@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/basicShapes.scss';
+import '../styles/basicShapes.scss';
 
 function BasicShapes() {
 	return (

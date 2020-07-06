@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/tutorials.scss';
 import BackHome from '../navbar/backHome';
-import BasicShapes from './basic_shapes';
+import BasicShapes from './basicShapes/basic_shapes';
 
 function Tutorials() {
 	return (
