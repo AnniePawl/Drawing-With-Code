@@ -7,7 +7,6 @@ function Tutorials() {
 	return (
 		<div id="tutorials" className="tutorials__container">
 			<BackHome />
-			<h1>Tutorials</h1>
 			<BasicShapes />
 		</div>
 	);

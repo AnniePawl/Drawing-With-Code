@@ -9,26 +9,28 @@ import '../styles/basicShapes.scss';
 
 function BasicShapes() {
 	return (
-		<div className="basic_shapes__container">
-			<h1 id="basic_shapes">Basic Shapes</h1>
-			{/* Basic Shapes Navigation*/}
-			{/* Circle */}
-			<div className="basic_shapes__shapes_container">
-				<HashLink smooth to="#circle">
-					<div className="basic_shapes__circle" />
-				</HashLink>
-				{/* Square */}
-				<HashLink smooth to="#square">
-					<div className="basic_shapes__square" />
-				</HashLink>
-				{/* Triangle */}
-				<HashLink smooth to="#triangle">
-					<div className="basic_shapes__triangle" />
-				</HashLink>
-				{/* Trapazoid */}
-				<HashLink smooth to="#trapazoid">
-					<div className="basic_shapes__trapazoid" />
-				</HashLink>
+		<div className="basic_shapes">
+			<div className="basic_shapes__container">
+				<h1 id="basic_shapes">Basic Shapes</h1>
+				{/* Basic Shapes Navigation*/}
+				{/* Circle */}
+				<div className="basic_shapes__shapes_container">
+					<HashLink smooth to="#circle">
+						<div className="basic_shapes__circle" />
+					</HashLink>
+					{/* Square */}
+					<HashLink smooth to="#square">
+						<div className="basic_shapes__square" />
+					</HashLink>
+					{/* Triangle */}
+					<HashLink smooth to="#triangle">
+						<div className="basic_shapes__triangle" />
+					</HashLink>
+					{/* Trapazoid */}
+					<HashLink smooth to="#trapazoid">
+						<div className="basic_shapes__trapazoid" />
+					</HashLink>
+				</div>
 			</div>
 
 			{/* Circle*/}

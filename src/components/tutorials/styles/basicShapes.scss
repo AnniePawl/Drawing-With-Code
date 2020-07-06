@@ -1,8 +1,19 @@
-$background-color: cadetblue;
+$background-color: #2f3436;
 $margin: 20px;
 $height: 90px;
 $width: 90px;
-$hover: pink;
+$hover: #ffd4f2;
+
+.basic_shapes__container {
+	height: 100vh;
+	background: #a7ffd8;
+}
+
+.basic_shapes__shapes_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 
 .basic_shapes__container > h1 {
 	text-align: center;
@@ -10,12 +21,7 @@ $hover: pink;
 	font-family: "Oswald", sans-serif;
 	font-weight: 800;
 	font-size: 45px;
-}
-
-.basic_shapes__shapes_container {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	color: #2f3436;
 }
 
 .basic_shapes__circle {
@@ -76,6 +82,7 @@ h2 {
 	font-weight: 800;
 	font-size: 40px;
 	margin: 5px;
+	margin-top: 15px;
 }
 
 h4 {
