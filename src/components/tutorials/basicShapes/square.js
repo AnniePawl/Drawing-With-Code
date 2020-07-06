@@ -2,11 +2,7 @@ import React from 'react';
 import '../styles/square.scss';
 
 function Square() {
-	return (
-		<div>
-			<h1>Square</h1>
-		</div>
-	);
+	return <div className="square__container" />;
 }
 
 export default Square;

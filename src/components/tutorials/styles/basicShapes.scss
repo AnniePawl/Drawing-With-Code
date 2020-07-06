@@ -2,6 +2,7 @@ $background-color: cadetblue;
 $margin: 20px;
 $height: 90px;
 $width: 90px;
+$hover: pink;
 
 .basic_shapes__container > h1 {
 	text-align: center;
@@ -48,4 +49,30 @@ $width: 90px;
 	border-bottom: 90px solid $background-color;
 	border-left: 40px solid transparent;
 	border-right: 40px solid transparent;
+}
+
+// Hover Styles
+.basic_shapes__circle:hover,
+.basic_shapes__square:hover {
+	background-color: $hover;
+}
+
+.basic_shapes__triangle:hover,
+.basic_shapes__trapazoid:hover {
+	border-bottom: 90px solid $hover;
+}
+
+.basic_shapes__circle_container,
+.basic_shapes__square_container,
+.basic_shapes__triangle_container,
+.basic_shapes__trapazoid_container {
+	height: 100vh;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Oswald", sans-serif;
+	font-weight: 800;
+	font-size: 40px;
 }
