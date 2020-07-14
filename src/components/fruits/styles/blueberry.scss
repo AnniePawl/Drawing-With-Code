@@ -1,0 +1,215 @@
+$blueberry:#91b4ff;
+$blueberry_shadow: #759cf0;
+$blueberry_leaves: #79d19c;
+$blueberry_ground_shadow:#d9b2b8;
+
+@mixin bloob_shadow {
+  background-color:$blueberry_ground_shadow;
+  border-radius: 50%;
+  height:60px;
+  width:120px;
+  box-shadow: 0 0 2px 5px $blueberry_ground_shadow;
+}
+
+@mixin center_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueberry_container {
+  background-color: #ffe6ea;
+  height: 600px;
+}
+
+// WHOLE BLOOB STYLES
+// Scaled size
+.bloobs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  transform: scale(.6) translate(-90px);
+}
+
+// Left Blueberry Style
+.total_blueberry {
+ @include center_flex();
+ margin-top:220px;
+ animation: bloob_float 3s 1s ease infinite;
+}
+
+.total_blueberry2 {
+  @include center_flex();
+  margin-top:220px;
+  animation: bloob_float 3s infinite;
+ }
+
+ .total_blueberry3 {
+  @include center_flex();
+  margin-top:220px;
+  animation: bloob_float 3s 1s ease infinite;
+ }
+
+.blueberry_base {
+  z-index: 1;
+  @include center_flex();
+  height:200px;
+  width:200px;
+  border-radius: 50%; 
+  background-color: $blueberry;
+  box-shadow: 6px 0px $blueberry_shadow;
+  // border: 5px solid $blueberry_shadow;
+}
+
+.blueberry_shadow {
+  z-index: 1;
+  position: relative;
+  height:200px;
+  width:95px;
+  border-radius: 0 90px 90px 0;
+  background-color: $blueberry_shadow;
+  transform: translate(55px,0px)
+}
+
+.blueberry_stars {
+  position: relative;
+  z-index: 3;
+  transform: translate(138px, -75px) rotate(20deg);
+}
+
+.blueberry_star_outer {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 65px solid $blueberry_shadow;
+  position: relative;
+}
+
+.blueberry_star_outer:after {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-top: 65px solid $blueberry_shadow;
+  position: absolute;
+  content: "";
+  top: 20px;
+  left: -35px;
+}
+
+.blueberry_star_inner {
+  z-index: 2;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 35px solid $blueberry;
+  position: relative;
+  transform: translate(20px, -45px)
+}
+
+.blueberry_star_inner:after {
+  z-index: 1;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 35px solid $blueberry;
+  position: absolute;
+  content: "";
+  top:10px;
+  left: -15px;
+}
+
+.blueberry_leaf {
+  position: relative;
+  z-index: 1;
+  width: 90px;
+  height: 110px;
+  border-radius: 80%  0%  80% 0%  ;
+  animation: lime_leaf 3s infinite;
+  background-color:$blueberry_leaves;
+}
+// Top Right
+.leaf1 {
+  transform: translate(140px,-50px)rotate(55deg)
+}
+// Top Left
+.leaf2{
+  background-color:$blueberry_leaves;
+  transform: translate(300px,-160px)rotate(-125deg);
+}
+
+// GROUND SHADOWS
+.blueberry_shadows {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.blueberry_shadow1 {
+  @include bloob_shadow();
+  animation: bloob_shadow 3s 1s infinite;
+}
+
+.blueberry_shadow2 {
+@include bloob_shadow();
+  animation: bloob_shadow 3s infinite;
+  margin-right:105px;
+  margin-left:105px
+}
+
+.blueberry_shadow3 {
+@include bloob_shadow();
+animation: bloob_shadow 3s 1s infinite;
+}
+
+
+// KEYFRAMES 
+@keyframes bloob_shadow {
+  0% {
+    opacity:.4;
+    transform: scale(.8);
+  }
+  50% {
+    opacity: 1;
+    transform:scale(1.2);
+  }
+  100% {
+    opacity:.4;
+    transform: scale(.8);
+  }
+}
+
+@keyframes bloob_float {
+  0% {
+    transform: translateY(-120px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-120px);
+  }
+} 
+
+@keyframes scale {
+  0% {
+    transform: scale(1)
+  }
+  50% {
+    transform: scale(1.2)
+  }
+
+  100% {
+    transform:scale(1)
+  }
+}
+
+
