@@ -1,11 +1,11 @@
-# Drawing With Code
-A gallery of personal CSS creations and a tutorial platform. 
+![GitHub stars](https://img.shields.io/github/stars/AnniePawl/Drawing-With-Code?color=%233289a8&style=for-the-badge)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AnniePawl/Drawing-With-Code/master?color=%233289a8&style=for-the-badge)
+![Landing Page](https://github.com/AnniePawl/Drawing-With-Code/blob/master/public/landing.png)
+
+### A Gallery of Personal CSS Animations and a Tutorial Platform
+This is an ongoing hobby project fueled by my enthusiasm for coding and art. After making some simple shapes with CSS, I started experimenting with more complex designs and animations. This was initially a space to showcase my creations, but evolved into a platform for others for other to learn. [**Check it out!**](https://duckduckgo.com)
 
 
-This is an ongoing hobby project fueled by my enthusiasm for coding and art. After making some simple shapes with CSS, I started experimenting with more complex designs and animations. This was initially a space to showcase my creations, but evolved into a platform for others for other to learn! 
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
