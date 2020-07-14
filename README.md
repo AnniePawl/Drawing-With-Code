@@ -1,3 +1,10 @@
+# Drawing With Code
+A gallery of personal CSS creations and a tutorial platform. 
+
+
+This is an ongoing hobby project fueled by my enthusiasm for coding and art. After making some simple shapes with CSS, I started experimenting with more complex designs and animations. This was initially a space to showcase my creations, but evolved into a platform for others for other to learn! 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -6,9 +6,9 @@ function AboutProject() {
 		<div className="about_project__container">
 			<h1>About This Project</h1>
 			<p>
-				This is an ongoing hobby project fueled by my enthusiasm for coding an art. I started by creating simple
-				shapes with css and gradually began making more complex doodles and adding animations. This started as a
-				space to showcase my css art, but now I want to help others make their own art.
+				This is an ongoing hobby project fueled by my enthusiasm for coding and art. After making some simple
+				shapes with CSS, I started experimenting with more complex designs and animations. This was initially a
+				space to showcase my creations, but evolved into a platform for others for other to learn!
 			</p>
 		</div>
 	);
