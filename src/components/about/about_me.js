@@ -7,6 +7,7 @@ function AboutMe() {
 	return (
 		<div className="about_me__container">
 			<h1>About Me</h1>
+			<p></p>
 			{/* Profile Buttons Component */}
 			<div className="about_me__buttons">
 				<Buttons />

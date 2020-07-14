@@ -1,4 +1,11 @@
-h1 {
-	color: black;
-	font-size: 100px;
+$heading: #3289a8;
+
+ .gallery__heading {
+	color: $heading;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 90px;
+	font-family: "Oswald", sans-serif;
+	margin-top:0;
+
 }

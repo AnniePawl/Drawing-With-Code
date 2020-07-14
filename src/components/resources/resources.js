@@ -14,6 +14,8 @@ function Resources() {
           <div className='resources__my_resources'>
             <h2 className='resources__subheading'>resources by me</h2>
             <ul>
+              {/* GH Repo */}
+              <li><a href="https://github.com/AnniePawl/Drawing-With-Code" target='blank'>Project GitHub Repo</a></li>
               {/* My medium article */}
               <li><a href="https://medium.com/@annapawl/drawing-with-code-716cb0b21b06 " target='blank'>Drawing with Code Medium Article </a></li>
             </ul>

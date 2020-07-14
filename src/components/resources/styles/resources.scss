@@ -1,5 +1,6 @@
 $background-color: #e3ffcc;
 $font-color: #363636;
+$heading:#3289a8;
 
 .resources__container {
 	height: 100vh;
@@ -20,7 +21,7 @@ $font-color: #363636;
 	text-transform: uppercase;
 	font-family: "Oswald", sans-serif;
 	font-weight: 800;
-	color: $font-color;
+	color: $heading;
 }
  
 
@@ -38,6 +39,10 @@ $font-color: #363636;
 	padding-left: 0px;
 }
 
+ul > li {
+	margin-bottom:5px;
+}
+
  p {
 	font-weight:300;
 	margin-top: 4px;
@@ -48,7 +53,7 @@ $font-color: #363636;
 a {
 	text-decoration: none;
 	text-transform: uppercase;
-	color:hotpink;
+	color:$heading;
 }
 
 a:hover {

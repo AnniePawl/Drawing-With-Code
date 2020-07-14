@@ -1,5 +1,6 @@
 $background-color: #214054;
-$pink: rgb(255, 230, 234);
+$font-color:#333333;
+$pink: #ffe6ea;
 
 .about__container {
 	height: 100vh;
@@ -26,10 +27,22 @@ $pink: rgb(255, 230, 234);
 // About This Project Styles
 .about_project__container > p {
 	// color: $pink;
-	color: white;
-	font-size: 20px;
+	font-family: "Roboto";
+	font-weight: 300;
+	color: $font-color;
+	font-size: 18px;
 	width: 50vw;
 }
+
+.about_project__container > p > a {
+	text-transform: lowercase;
+	color:white;
+}
+
+.about_project__container > p > a:hover {
+	font-weight: bold;
+}
+
 
 // About Me Styles
 .about_me__container > h1,
@@ -42,6 +55,14 @@ $pink: rgb(255, 230, 234);
 	margin: 0;
 }
 
+.about_me__container >h1 {
+	font-size: 50px;
+	margin-top:50px;
+	margin-bottom: -20px;
+
+}
+
+
 // Button Styles
 img.about_me__button {
 	height: 45px;
@@ -49,6 +70,8 @@ img.about_me__button {
 	margin-right: 15px;
 	margin-top: 20px;
 }
+
+
 
 .about_me__buttons {
 }
