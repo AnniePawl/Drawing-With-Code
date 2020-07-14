@@ -1,13 +1,11 @@
 $background-color: #e3ffcc;
-$font-color: #6b6a6a;
+$font-color: #363636;
 
 .resources__container {
 	height: 100vh;
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
-	// justify-content: space-between;
-	// background-color: $background-color;
 	background: rgb(232, 245, 135);
 	background: linear-gradient(0deg, rgba(232, 245, 135, 1) 0%, rgba(255, 230, 234, 1) 70%);
 }
@@ -24,12 +22,37 @@ $font-color: #6b6a6a;
 	font-weight: 800;
 	color: $font-color;
 }
+ 
 
-.resources__content > ul {
-	list-style: none;
-	font-size: 20px;
+.resources__subheading {
+	font-size: 25px;
+	text-align: left;
+	color:$font-color;
+	margin-left:0;;
 }
 
-.resources__content > ul > li {
-	margin-bottom: 8px;
+ ul  {
+	font-size:13px;
+	list-style-type: none;
+	font-weight: bold;
+	padding-left: 0px;
 }
+
+ p {
+	font-weight:300;
+	margin-top: 4px;
+	width:40%
+}
+
+// Link Styles
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color:hotpink;
+}
+
+a:hover {
+	color:burlywood
+}
+
+
