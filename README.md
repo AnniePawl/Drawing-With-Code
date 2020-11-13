@@ -3,8 +3,7 @@
 ![Landing Page](https://github.com/AnniePawl/Drawing-With-Code/blob/master/public/landing.png)
 
 ### A Gallery of Personal CSS Animations and a Tutorial Platform
-This is an ongoing hobby project fueled by my enthusiasm for coding and art. After making some simple shapes with CSS, I started experimenting with more complex designs and animations. This was initially a space to showcase my creations, but evolved into a platform for others for other to learn. [**Check it out!**](https://duckduckgo.com)
-
+This is an ongoing hobby project fueled by my enthusiasm for technology and art. After making some simple shapes with CSS, I started experimenting with more complex designs and animations. This was initially a space to showcase my creations, but evolved into a platform for others for other to learn. [**Check it out!**](https://anniepawl.github.io/Drawing-With-Code/#/)
 
 
 ## Available Scripts
